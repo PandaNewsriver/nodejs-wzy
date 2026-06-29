@@ -44,7 +44,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # 【修改此处】：使用上面生成的小写环境变量 ${{ env.REPO_OWNER }} 来代替原本自带大写的变量
           tags: |
-            ghcr.io/${{ env.REPO_OWNER }}/wzyww:latest
+            ghcr.io/${{ env.REPO_OWNER }}/wzymm:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
